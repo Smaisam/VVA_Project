@@ -58,5 +58,3 @@ survdiff(surv_object ~ Treatment, data = df)
 #Y=samples with lemon
 #X-Y < 0 
 t.test(x=df$Time[1:5], y=df$Time[6:10], alternative = 'less', conf.level = 0.95)
-
-
